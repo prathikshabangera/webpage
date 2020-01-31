@@ -1,0 +1,273 @@
+@charset "utf-8";
+*{
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+	font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", "serif"sans-serif;
+}
+body{
+	width: 100%;
+	height:100vh;
+}
+.topbody{
+	width: 100%;
+	height: 500px;
+	background-image: linear-gradient(to bottom, #194d00,  #44cc00, #339900,    #226600);
+	margin: 0;
+	padding: 0;
+}
+.second{
+	width:70%;
+	margin-left:300px;
+	height:300px;
+	background-color: ;
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	
+}
+.second1{
+	width:50%;
+}
+.second2{
+	width: 50%;
+}
+.second h2{
+	font-size: 50px;
+	color: black;
+	text-shadow: 7px 3px 5px hotpink;
+	background-color:;
+	margin:0px;
+	text-transform: uppercase;
+}
+.second p{	
+	font-size: 20px;
+	text-transform: capitalize;
+	text-shadow: 7px 3px 5px hotpink;
+	margin-top: 20px;
+	font-weight: bold;
+	color: white;
+}
+.second button{
+	width: 150px;
+	height:40px;
+	background-color:  #194d00;
+	color: white;
+	font-weight: bold;
+	border-radius: 30px;
+	margin-left:250px;
+	font-size: 16px;
+	border: 1px solid black;
+}
+.second img{
+	box-shadow: 5px 5px 50px 3px hotpink;
+	border-radius: 30px;
+	margin-left: 40px;
+	align-content: center;
+	width:400px;
+}
+.mainbody{
+	width:70%;
+	margin-left:300px;
+	background-color:antiquewhite;
+	height:750px;
+	border-radius: 10px;
+	box-shadow: 5px 5px 50px 3px black;
+}
+.first{
+	display: flex;
+	flex-direction: row;
+}
+.item{
+	width:100%;
+	height: 300px;
+
+}
+.item1{
+	width:40%;
+	//box-shadow: 2px 0px 40px 5px black;
+	border-right:2px solid black;
+}
+.item1 ul li{
+	list-style: none;
+	font-size: 20px;
+	text-align:center;
+	margin-top:35px;
+	border-bottom: 1px solid black;
+	font-weight: bold;
+}
+.item2{
+	margin-left:80px;
+	display: flex;
+	flex-direction: column;
+	font-family: Arial;
+}
+.item2 h2{
+	margin-top: 20px;
+	font-weight: bold;
+	text-transform: uppercase;
+}
+.dot1{
+	display: flex;
+	flex-direction: row;
+}
+.dot11 img{
+	height:100px;
+	margin-top:20px;
+	box-shadow: 1px 1px 40px 2px black;
+}
+.dot21{
+	margin-left: 50px;
+	margin-top:20px;
+	display:flex;
+	flex-direction: column;
+	
+}
+.dot21 h4{
+	font-size:20px;
+}
+.dot21 p{
+	font-size: 18px;
+	margin-top:10px;
+}
+.dot2{
+	display: flex;
+	flex-direction: row;
+}
+.dot22 img{
+	height:100px;
+	margin-top:20px;
+	box-shadow: 1px 1px 40px 2px black;
+}
+.dot12{
+	margin-left: 50px;
+	margin-top:20px;
+	display:flex;
+	flex-direction: column;
+	
+}
+.dot12 h4{
+	font-size:20px;
+}
+.dot12 p{
+	font-size: 18px;
+	margin-top:10px;
+}
+.third{
+	margin-top:30px;
+	display:flex;
+	flex-direction: row;
+}
+.third1{
+	width:30%;
+}
+.form{
+	background-color: #f1f1f1;
+}
+.form h2{
+	text-transform: uppercase;
+	font-family: Arial;
+	text-align: center;
+	background-color: rgba(0,0,0,0.50);
+	height:50px;
+	width:100%;
+	line-height:50px;
+}
+.form  img{
+	height:60px;
+	width:60px;
+	margin-left:120px;
+}
+.container {
+  padding: 16px;
+}
+
+/* The "Forgot password" text */
+span.psw {
+  float: right;
+  padding-top: 16px;
+}
+
+form {
+  border: 3px solid #f1f1f1;
+	
+}
+
+/* Full-width inputs */
+input[type=text], input[type=password] {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+}
+
+/* Set a style for all buttons */
+button {
+  background-color: #4CAF50;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+}
+
+/* Add a hover effect for buttons */
+button:hover {
+  opacity: 0.8;
+}
+
+/* Extra style for the cancel button (red) */
+.cancelbtn {
+  width: auto;
+  padding: 10px 18px;
+  background-color: #f44336;
+}
+.third2{
+	width:70%;
+	margin-left:60px;
+	display: flex;
+	flex-direction: row;
+}
+.third21{
+	margin-left:50px;
+	font-family: Arial;
+}
+.third21 h3{
+	margin-top: 80px;
+	font-size:30px;
+	text-transform: uppercase;
+	text-align: center;
+}
+.third21 p{
+	margin-top: 20px;
+	line-height: 25px;
+	font-size:18px;
+}
+.third22{
+	margin-left:40px;
+	font-family: Arial;
+}
+.third22 h3{
+	margin-top: 80px;
+	font-size:30px;
+	text-transform: uppercase;
+	text-align: center;
+}
+.third22 p{
+	font-size:18px;
+	margin-top: 20px;
+	line-height: 25px;
+}
+.foot{
+	width:100%;
+	height:40px;
+	line-height:40px;
+	text-align: center;
+	font-size: 18px;
+	font-family: Arial;
+	background-color:rgba(3,66,16,1.00);
+	font-weight: bold;
+}
